@@ -1,4 +1,4 @@
-# Loyola COMP 271 Lab 6: recursive maze solver
+# Loyola COMP 271 Lab 5: stack-based maze solver
 
 ## Group activity
 
@@ -10,14 +10,13 @@ Clearly list the members of your team.
 An understanding of the following concepts and techniques:
 
 - two-dimensional arrays
-- recursion
-- recursive backtracking
+- using stacks for depth-first search
 - parametric thinking
 - object-oriented design
 
 # Description
 
-In this lab, you will have the opportunity to develop a maze solver using recursive backtracking.
+In this lab, you will have the opportunity to develop a maze solver using stack-based backtracking.
 The maze solver behaves as follows:
 
 1. It first reads from the standard input the row and column of the starting point within the maze.
@@ -122,7 +121,6 @@ Bummer, we're stuck...
     1. Why are the methods in the `Maze` class instance methods as opposed to static methods?
     1. Why is it generally advantageous to parameterize the `Maze.print` method with the output destination?
     1. What is the purpose of the `Maze.get` method, given that it is not used in `Main` or `Maze`?
-    1. Why do we have both a nonrecursive `solve` and a recursive `solve1` method?
 
 # Submission
 

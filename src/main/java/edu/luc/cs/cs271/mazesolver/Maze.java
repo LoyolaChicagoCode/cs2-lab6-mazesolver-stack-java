@@ -1,6 +1,8 @@
 package edu.luc.cs.cs271.mazesolver;
 
 import java.io.PrintStream;
+import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Maze {
@@ -59,14 +61,41 @@ public class Maze {
    * @throws IllegalArgumentException if the starting position is outside the maze
    */
   public boolean solve(final int startRow, final int startCol) {
-    // TODO
-    // validate arguments
 
-    // invoke recursive method starting at row and col
+    // TODO
+    // validate arguments: ensure position is within maze area
+
+    // TODO create local class for row/col positions
+    class Position {
+      // TODO add instance variables
+      public Position(final int row, final int col) {
+        // TODO
+      }
+      // TODO toString if desired
+    }
+
+    // TODO define the stack (work queue)
+    final var queue = Collections.asLifoQueue(new LinkedList<Position>());
+
+    // TODO put starting position in queue
+    queue.add(new Position(startRow, startCol));
+
+    // look for a way out of the maze from the current position
+    while (! queue.isEmpty()) {
+      final var pos = queue.remove();
+
+      // if we've already visited this position, do not visit again
+
+      // otherwise mark this place as visited (drop a breadcrumb)
+
+      // if we're already on the perimeter, then this is a way out and we should return true right away
+
+      // else try each of our four neighbors (cardinal directions) by adding them to the stack
+    }
 
     // mark starting position
 
-    // return result
+    // if we've looked everywhere but haven't gotten out, then return failure
     return false;
   }
 
