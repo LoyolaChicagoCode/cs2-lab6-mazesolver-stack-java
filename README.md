@@ -122,8 +122,9 @@ Bummer, we're stuck...
 
 # Extra credit
 
-Distinguish between the way out and dead-end attempts at the end.
+- Distinguish between the way out and dead-end attempts at the end.
 In particular, represent visited cells leading to a dead end as - (minus).
+- Try with both a stack (LIFO) and an ordinary queue (FIFO) and briefly discuss your findings. 
 
 # Submission
 
