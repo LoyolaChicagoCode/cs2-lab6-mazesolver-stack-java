@@ -91,7 +91,7 @@ Bummer, we're stuck...
 
 ## Instructions
 
-1. Start by importing or downloading this project: https://github.com/LoyolaChicagoCode/cs2-lab6-mazesolver-java
+1. Start by importing or downloading this project: https://github.com/LoyolaChicagoCode/cs2-lab5-mazesolver-stack-java
 1. Complete the TODO items in the various sources until the program behaves as required. Recommended order:
     - constructor
     - print
