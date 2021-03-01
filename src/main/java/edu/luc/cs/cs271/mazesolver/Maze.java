@@ -58,7 +58,7 @@ public class Maze {
    * @return whether or not there is a way out
    * @throws IllegalArgumentException if the starting position is outside the maze
    */
-  public boolean solve(final int row, final int col) {
+  public boolean solve(final int startRow, final int startCol) {
     // TODO
     // validate arguments
 
@@ -67,20 +67,6 @@ public class Maze {
     // mark starting position
 
     // return result
-    return false;
-  }
-
-  /** Looks for a way out of the maze from the current position using recursive backtracking. */
-  protected boolean solve1(final int row, final int col) {
-    // TODO your job
-    // if we're not allowed to be here, then this is not a way out
-
-    // otherwise mark this place as visited (drop a breadcrumb)
-
-    // if we're already on the perimeter, then this is a way out
-
-    // otherwise try each of our four neighbors (cardinal directions)
-
     return false;
   }
 
