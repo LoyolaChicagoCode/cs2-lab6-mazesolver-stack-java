@@ -17,6 +17,8 @@ public class Main {
     // TODO read maze data as rows
     final var rawData = new ArrayList<String>();
 
+    // TODO read one line at a time into rawData
+
     // attempt to solve the maze and print the result
     final var maze = new Maze(rawData);
     final var result = maze.solve(startRow, startCol);

@@ -74,17 +74,19 @@ public class Maze {
       // TODO toString if desired
     }
 
-    // TODO define the stack (work queue)
+    // define the stack (work queue)
     final var queue = Collections.asLifoQueue(new LinkedList<Position>());
 
-    // TODO put starting position in queue
+    // put starting position in queue
     queue.add(new Position(startRow, startCol));
 
     // look for a way out of the maze from the current position
     while (! queue.isEmpty()) {
       final var pos = queue.remove();
 
-      // if we've already visited this position, do not visit again
+      // if this is a wall, then ignore this position (and skip the remaining steps of the loop body)
+
+      // if we've already visited this position, do not visit again (ignore and skip the remaining steps of the loop body)
 
       // otherwise mark this place as visited (drop a breadcrumb)
 

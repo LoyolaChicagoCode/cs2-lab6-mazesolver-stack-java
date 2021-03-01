@@ -20,9 +20,9 @@ In this lab, you will have the opportunity to develop a maze solver using stack-
 The maze solver behaves as follows:
 
 1. It first reads from the standard input the row and column of the starting point within the maze.
+1. It then reads from the standard input the maze data in the form of same-length strings representing rows in the maze.
    - \* represents a wall
    - \. represents an empty space we can visit
-1. It then reads from the standard input the maze data in the form of same-length strings representing rows in the maze.
 1. It then attempts to find a way out of the maze from the starting point.
 1. Finally, it prints the maze showing 
    - the starting point as a 0 (zero)
