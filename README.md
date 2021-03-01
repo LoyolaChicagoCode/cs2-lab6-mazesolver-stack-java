@@ -100,7 +100,6 @@ Bummer, we're stuck...
     - solve
     - tests
 
-   You may also want to add the distinction between the way out and dead-end attempts at the end. 
    *This is a short but complex project. You are encouraged to get started early and use the available supports.*   
 1. Create at least one additional maze of size 10x10 or larger and with at least two exits.
 1. As in the past, run the program as follows:
