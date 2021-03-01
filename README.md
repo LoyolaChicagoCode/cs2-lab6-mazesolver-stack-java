@@ -27,8 +27,7 @@ The maze solver behaves as follows:
 1. Finally, it prints the maze showing 
    - the starting point as a 0 (zero)
    - unvisited cells as \. (dot)
-   - visited cells leading to a dead end as - (minus)
-   - visited cells leading out as + (plus)
+   - visited cells (including those leading out) as + (plus)
    
 ## Example 1
 
@@ -120,6 +119,11 @@ Bummer, we're stuck...
     1. Why are the methods in the `Maze` class instance methods as opposed to static methods?
     1. Why is it generally advantageous to parameterize the `Maze.print` method with the output destination?
     1. What is the purpose of the `Maze.get` method, given that it is not used in `Main` or `Maze`?
+
+# Extra credit
+
+Distinguish between the way out and dead-end attempts at the end.
+In particular, represent visited cells leading to a dead end as - (minus).
 
 # Submission
 
