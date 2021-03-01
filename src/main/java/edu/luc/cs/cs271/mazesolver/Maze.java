@@ -88,14 +88,14 @@ public class Maze {
 
       // otherwise mark this place as visited (drop a breadcrumb)
 
-      // if we're already on the perimeter, then this is a way out and we should return true right away
+      // if we're already on the perimeter, then this is a way out and we should return success (true) right away
 
       // else try each of our four neighbors (cardinal directions) by adding them to the stack
     }
 
     // mark starting position
 
-    // if we've looked everywhere but haven't gotten out, then return failure
+    // if we've looked everywhere but haven't gotten out, then return failure (false)
     return false;
   }
 
