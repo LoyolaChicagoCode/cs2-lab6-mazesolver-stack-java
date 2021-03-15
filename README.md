@@ -121,12 +121,6 @@ Bummer, we're stuck...
     1. Why is it generally advantageous to parameterize the `Maze.print` method with the output destination?
     1. What is the purpose of the `Maze.get` method, given that it is not used in `Main` or `Maze`?
 
-# Extra credit
-
-- Distinguish between the way out and dead-end attempts at the end.
-In particular, represent visited cells leading to a dead end as - (minus).
-- Try with both a stack (LIFO) and an ordinary queue (FIFO) and briefly discuss your findings. 
-
 # Submission
 
 -    Make sure you have created a separate project for this activity.
@@ -141,3 +135,9 @@ In particular, represent visited cells leading to a dead end as - (minus).
 - 1 written part
   - 0.8 responses to the questions above
   - 0.2 grammar, style, formatting
+
+# Extra credit
+
+- 1 Distinguish between the way out and dead-end attempts at the end.
+In particular, represent visited cells leading to a dead end as - (minus).
+- 0.5 Try with both a stack (LIFO) and an ordinary queue (FIFO) and briefly discuss your findings. 
