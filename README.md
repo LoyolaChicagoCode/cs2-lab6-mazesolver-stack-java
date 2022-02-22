@@ -127,7 +127,16 @@ Bummer, we're stuck...
 -    Include a project-specific Answers.md file including your reflection and any other thoughts or design decisions.
 -    In IDEA, export your project as a zip file and submit as an attachment.
 
-# Grading (total 5)
+# Grading (SP22 - total 3.5 points)
+
+- 2 completion of items marked TODO in `src/main` and correct behavior
+- 0.2 additional maze
+- 0.8 tests for maze1 and your additional maze
+- 0.5 written part
+  - 0.4 responses to the questions above
+  - 0.1 grammar, style, formatting
+
+# Grading (total 5 points)
 
 - 3 completion of items marked TODO in `src/main` and correct behavior
 - 0.2 additional maze
