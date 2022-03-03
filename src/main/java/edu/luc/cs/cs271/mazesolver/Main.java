@@ -14,10 +14,8 @@ public class Main {
     final var startRow = -1;
     final var startCol = -1;
 
-    // TODO read maze data as rows
+    // TODO read maze data one row (line) at a time into rawData
     final var rawData = new ArrayList<String>();
-
-    // TODO read one line at a time into rawData
 
     // attempt to solve the maze and print the result
     final var maze = new Maze(rawData);
