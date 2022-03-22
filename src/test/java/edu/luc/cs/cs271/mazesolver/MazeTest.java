@@ -8,7 +8,7 @@ public class MazeTest {
 
   @Test
   public void testMazeGeta() {
-    final var data = new String[] {"***", "*..", "***"};
+    final var data = new String[] {"***", "*..", "*.*", "***"};
     final var sut = new Maze(data);
     assertEquals(Maze.EMPTY, sut.get(1, 1));
     assertEquals(Maze.WALL, sut.get(0, 0));
@@ -16,7 +16,7 @@ public class MazeTest {
 
   @Test(expected = IndexOutOfBoundsException.class)
   public void testMazeGetb() {
-    final var data = new String[] {"***", "*..", "***"};
+    final var data = new String[] {"***", "*..", "*.*", "***"};
     final var sut = new Maze(data);
     sut.get(3, 4);
   }
@@ -36,15 +36,15 @@ public class MazeTest {
   }
 
   @Test
-  public void testMaze3x3a() {
-    final var data = new String[] {"***", "*.*", "***"};
+  public void testMaze4x3a() {
+    final var data = new String[] {"***", "*.*", "*.*", "***"};
     final var sut = new Maze(data);
     assertFalse(sut.solve(1, 1));
   }
 
   @Test
-  public void testMaze3x3b() {
-    final var data = new String[] {"***", "*..", "***"};
+  public void testMaze4x3b() {
+    final var data = new String[] {"***", "*..", "*.*", "***"};
     final var sut = new Maze(data);
     assertTrue(sut.solve(1, 1));
     assertEquals(Maze.VISITED, sut.get(1, 2));
