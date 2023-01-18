@@ -1,4 +1,4 @@
-# Loyola COMP 271 Lab 5: stack-based maze solver
+# Loyola COMP 271 Lab 6: stack-based maze solver
 
 ## Group activity
 
