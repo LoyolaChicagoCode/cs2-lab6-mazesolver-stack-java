@@ -1,9 +1,8 @@
-# Loyola COMP 271 Lab 6: stack-based maze solver
+# Loyola COMP 271 Project 7: stack-based maze solver
 
 ## Group activity
 
-Collaborate with your teammates but submit individually.
-Clearly list the members of your team.
+In this activity, we'll implement a queue-based solver for mazes represented as two-dimensional arrays!
 
 # Objectives
 
@@ -101,7 +100,7 @@ Bummer, we're stuck...
     - tests
 
    *This is a short but complex project. You are encouraged to get started early and use the available supports.*   
-1. Create at least one additional maze of size 10x10 or larger and with at least two exits.
+1. Create at least one additional, *non-square* maze of size 10x10 or larger and with at least two exits.
 1. As in the past, run the program as follows:
     - Run > Run... > Edit Configuration 
     - check "Redirect input from" and enter the exact file name including the .txt extension
@@ -127,23 +126,14 @@ Bummer, we're stuck...
 -    Include a project-specific Answers.md file including your reflection and any other thoughts or design decisions.
 -    In IDEA, export your project as a zip file and submit as an attachment.
 
-# Grading (SP22 - total 3.5 points)
+# Grading (total 10 points)
 
-- 2 completion of items marked TODO in `src/main` and correct behavior
-- 0.2 additional maze
-- 0.8 tests for maze1 and your additional maze
-- 0.5 written part
-  - 0.4 responses to the questions above
-  - 0.1 grammar, style, formatting
-
-# Grading (total 5 points)
-
-- 3 completion of items marked TODO in `src/main` and correct behavior
-- 0.2 additional maze
-- 0.8 tests for maze1 and your additional maze
-- 1 written part
-  - 0.8 responses to the questions above
-  - 0.2 grammar, style, formatting
+- 6 completion of items marked TODO in `src/main` and correct behavior
+- 0.5 additional non-square maze
+- 2 tests for maze1 and your additional maze
+- 1.5 written part
+  - 1 responses to the questions above
+  - 0.5 grammar, style, formatting
 
 # Extra credit
 
