@@ -91,7 +91,6 @@ Bummer, we're stuck...
 
 ## Instructions
 
-1. Start by importing or downloading this project: https://github.com/LoyolaChicagoCode/cs2-lab5-mazesolver-stack-java
 1. Complete the TODO items in the various sources until the program behaves as required. Recommended order:
     - constructor
     - print
@@ -101,13 +100,8 @@ Bummer, we're stuck...
 
    *This is a short but complex project. You are encouraged to get started early and use the available supports.*   
 1. Create at least one additional, *non-square* maze of size 10x10 or larger and with at least two exits.
-1. As in the past, run the program as follows:
-    - Run > Run... > Edit Configuration 
-    - check "Redirect input from" and enter the exact file name including the .txt extension
-      (do not browse to the file because that would create an absolute path)
-    - press Run
-    
-   Alternatively, if you have a working installation of the [Maven build tool](https://maven.apache.org/), you can perform this task in the terminal:
+1. As in the past, run the tests by pressing the green Run button or running `mvn test` in a console or shell window.
+1. Also as before, to run the main program in a console or shell window:
 
        cd <your project's root directory>
        mvn compile
@@ -128,15 +122,16 @@ Bummer, we're stuck...
 
 # Grading (total 10 points)
 
-- 6 completion of items marked TODO in `src/main` and correct behavior
+- 5.5 completion of items marked TODO in `src/main` and correct behavior
 - 0.5 additional non-square maze
 - 2 tests for maze1 and your additional maze
-- 1.5 written part
-  - 1 responses to the questions above
+- 2 written part
+  - 1.5 responses to the questions above
   - 0.5 grammar, style, formatting
 
 # Extra credit
 
-- 1 Distinguish between the way out and dead-end attempts at the end.
+- 2 Distinguish between the way out and dead-end attempts at the end.
 In particular, represent visited cells leading to a dead end as - (minus).
-- 0.5 Try with both a stack (LIFO) and an ordinary queue (FIFO) and briefly discuss your findings. 
+- 1 Try with both a stack (LIFO) and an ordinary queue (FIFO) and briefly discuss your findings. 
+- 1 Total for up to two additional non-square mazes of size greater than 10x10.
