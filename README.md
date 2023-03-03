@@ -2,7 +2,7 @@
 
 ## Group activity
 
-In this activity, we'll implement a queue-based solver for mazes represented as two-dimensional arrays!
+In this activity, we'll implement a stack-based solver for mazes represented as two-dimensional arrays!
 
 # Objectives
 
